@@ -74,8 +74,6 @@ public class Registro extends AppCompatActivity {
                 confPasswd = etConfPasswd.getText().toString();
                 tipoUsuario = elemento;
 
-                Toast.makeText(Registro.this, tipoUsuario, Toast.LENGTH_SHORT).show();
-
                 if (passwd.equals("") && passwd.equals("") && confPasswd.equals("") && spinner.getSelectedItemPosition() == 0) {
                     Toast.makeText(Registro.this, "Rellenar todos los campos", Toast.LENGTH_SHORT).show();
                 }
